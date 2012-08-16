@@ -30,13 +30,22 @@
       <section>
         <h1>Morsee Twitter Client</h1>
 
-<p>Morsee is a very simple Twitter client which can only send tweets.</p>
+<p>Morsee is a very simple Twitter client which can only send tweets, using <a href="http://supertweet.net">SuperTweet</a> to authenticate with the service.</p>
 
-<p>It runs on a <strong>Texas Instruments Stellaris EKK-LM3S8962 Evaluation Kit</strong>, which has a <em>ARM Cortex-M3</em> MCU, with some push buttons, a buzzer, ethernet and a little OLED display.</p>
+<p>It runs on a <strong>Texas Instruments Stellaris EKK-LM3S8962 Evaluation Kit</strong>, which has a <em>ARM Cortex-M3</em> MCU, with some push buttons, a buzzer, ethernet and a tiny OLED display.</p>
 
-<p>This project was developed at <a href="http://www.euskal.org">Euskal Encounter 20</a> for the competition <strong>Make your gadget</strong> in less than 36 hours, son don't expect a clean code, it just works. It uses a library from <a href="http://www.mondragon.edu">Mondragon Unibertsitatea</a>, and all the code is under BSD license.</p>
+<p>This project was developed at <a href="http://www.euskal.org">Euskal Encounter 20</a> for the competition <strong>Tu Gadget</strong> (<em>Your Gadget</em>) in less than 36 hours, son don't expect a clean code, it just works.</p>
 
-<p>The account where we tested it, with some demonstration tweets is <a href="http://www.twitter.com/MorseeBot">MorseeBot</a>.</p>
+<p>All the code is released under the <strong>BSD</strong> license, unless it is said otherwise at the source file. It uses the following external pieces of code:</p>
+
+<ul>
+<li>The BSP (<em>Board Support Package</em>) provided by Texas Instruments with the evaluation kit.</li>
+<li>A library to use the peripherals from <a href="http://www.mondragon.edu">Mondragon Unibertsitatea</a>.</li>
+<li>
+<a href="http://freertos.org">FreeRTOS</a> real time operating system.</li>
+<li>
+<a href="http://sourceforge.net/projects/uip-stack/">uIP</a> TCP/IP network stack.</li>
+</ul><p>The account where we tested it, with some demonstration tweets is <a href="http://www.twitter.com/MorseeBot">MorseeBot</a>.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/josulf">josulf</a></p>
